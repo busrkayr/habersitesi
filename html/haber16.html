@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Busra Haber</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #343a40;
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+}
+
+
+
+.news-details {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.news-details h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.news-image {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.news-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.news-details p {
+    font-size: 17px;
+    line-height: 1.8;
+    color: #555;
+}
+
+/* UL ve section yatay olarak yan yana hizalanacak */
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+/* Section sola yaslanacak */
+main section {
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    max-width: 1100px;
+}
+
+/* UL sağa yaslanacak */
+ul.read-list-news-list {
+    text-align: right; 
+    margin-top: 60px;
+    margin-right: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 30px 0;
+    background-color: #343a40;
+    color: #fff;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+}
+
+.text-frame {
+    padding: 10px;
+    background-color: #f5f5f5; /* Opsiyonel: Başlık alanı için arka plan rengi */
+}
+
+.title {
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+.title a {
+    color: #333;
+    text-decoration: none;
+}
+
+.title a:hover {
+    color: #a53030; 
+}
+
+    </style>
+</head>
+<body>
+<main>
+    <section class="news-details">
+        <h2>Trabzon Şehir Hastanesi'nin yapımı sürüyor</h2>
+        <div class="news-image">
+            <img src="/images/haber16.jpg" alt="Haber Resmi">
+        </div>
+        <p>Trabzon’da Şenol Güneş Spor Kompleksi’nin yanındaki dolgu alanında yapımı süren 900 yataklı Şehir Hastanesi’nin kaba inşaatı
+            tamamlandı. Yapım çalışmaları süren şehir hastanesi inşaatında yüzde 33 seviyelerine gelinirken, deprem izolatörlerinin ise 
+            yüzde 95’i takıldı. Şenol Güneş Spor Kompleksi'nin yanındaki dolgu alanında yapımına başlanan Trabzon Şehir Hastanesi’ndeki 
+            çalışmalar sürüyor. Toplam 900 nitelikli yatak sayısı sahip olacak şekilde projelendirilen ve bin 461’e tamamlanacak şekilde 
+            yatak kapasitesi arttırılabilir durumda olan Trabzon Şehir Hastanesi inşaatı yüzde 33 seviyelerine geldi. Kentteki yoğun bakım
+            kapasitesini iki katına çıkartacak olan Trabzon Şehir Hastanesi’nde 300 poliklinik ve 33 ameliyathane olacak. 4 bin 300 fore 
+            kazığın kullandığı şehir hastanesi depreme dayanıklı olarak inşa edilen 562 sismik izolatör ile korunacak. Deprem izolatörlerinin 
+            yüzde 95’i takılarak monte edilirken, inşaatının kaba inşaatı ise tamamlandı. 2025 yılının Şubat ayında hizmete girmesi planlanan
+            şehir hastanesinde yanık tedavi ünitesi, nükleer tıp ünitesi, radyoterapi alanı, diyabet ünitesi, kan transfüzyon merkezi, 
+            uyku laboratuvarı ve genetik laboratuvar yer alacak. Trabzon Şehir Hastanesi’ndeki çalışmaları inceleyen Trabzon İl Sağlık Müdürü
+            Dr. Hakan Usta, yaptığı açıklamada, inşaatının yüzde 33 seviyelerine geldiğini belirterek kaba inşaatının ise yüzde 99 oranında
+            tamamlandığını söyledi. 1.5 yıl içerisinde vatandaşların hastanenin hizmetlerinden yararlanacağını kaydeden Usta, “Hastanemiz hem
+            yoğun bakımı ile hem yatak kapasitesi ile hem de diğer teknolojik kapasiteli ile hizmetlerin bütünleşik olarak tek çatı altında 
+            verilebilmesiyle öne çıkan bir yapılanma. İnşallah halkımız 1.5 yıl içerisinde bu hizmetten net bir şekilde istifade etmiş olacak”  dedi.</p>
+            <h3>“Fore kazıkların hepsi çakıldı”</h3>
+            <p>Deprem izolatörlerinin yüzde 95’inin takıldığını vurgulayan Usta, “Bin 461 yatak kapasitesine kadar çıkarılabilir yapısı var.
+            900 yatak kapasiteli olarak görülüyor. Ama yoğun bakım yatakları ve her odayı çift yatağa çevirebilme durumu söz konusu olabiliyor.
+            Dolayısıyla istediğimiz zaman bin 461 yatağa kadar çıkabilecek bir durum söz konusu. Deprem izolatörlerinin de yüzde 95’i takıldı, 
+            monte edildi. Diğer fore kazıkların hepsi çakıldı, o anlamda bir eksiğimiz yok. İnşallah hem fore kazık sistemi ile hem deprem 
+            izolatörleri ile ciddi bir şekilde depreme karşı dayanıklılığı sağlamış bir bina” şeklinde konuştu.</p>
+            <h3>“Şehir hastanesinin dört bir tarafından yollar yapılması planlanmakta”</h3>
+            <p>Trabzonspor’un stadının yanında inşa edilen Şehir hastanesine ulaşımda acil hastaların gelebilmesini engelleyecek bir durumun
+            söz konusu olmayacağını belirten Usta, “Karayolları ile yapılan çalışmalar neticesinde şehir hastanesinin dört bir tarafından yollar 
+            yapılması planlanmakta. Onun dışında maçla alakalı olan süreçte de maç saatleri hastanelerinin aktif olmadığı saatleri tekabül ediyor.
+            Özellikle o anlamda hastanemiz adına yoğun olmayan bir trafiğimiz söz konusu olacak. Aynı zamanda hem tünelden hem Doğu ve Batı’da
+            olan iki kavşaktan dolayı da şehir hastanesine gelebilecek olan acil hastaların gelebilmesini engelleyecek bir durum söz konusu
+            olmayacak” ifadelerini kullandı.</p> 
+        </section>
+        <ul class="read-list-news-list">
+            <li class="standard-left-thumb-card">
+                <div class="image-frame">
+                    <a href="haber1.html" title="Rusyada seçimlerin etkisi ne olacak?" class="site-url">
+                        <img src="/images/haber1.jpg" alt="Rusyada seçimlerin etkisi ne olacak?" class="image" />
+                    </a>
+                </div>
+                <div class="text-frame">
+                    <div class="title">
+                        <a href="haber1.html" title="2024ün önemli seçimlerinden biri olan Rusyadaki devlet başkanlığı seçimleri üç günün ardından sona erdi. Seçimi, sandık çıkış anketine göre oyların yüzde 87,29'unu alan Vladimir Putin kazandı." class="site-url">
+                        2024’ün önemli seçimlerinden biri olan Rusya'daki devlet başkanlığı seçimleri üç günün ardından sona erdi. Seçimi, sandık çıkış anketine göre oyların yüzde 87,29'unu alan Vladimir Putin kazandı. </a>
+                    </div>
+                </div>
+            </li>
+            <li class="standard-left-thumb-card">
+                <div class="image-frame">
+                    <a href="haber8.html" title="Pankreas kanseri sinsi ilerliyor" class="site-url">
+                        <img src="/images/haber8.jpg" alt="Pankreas kanseri sinsi ilerliyor" class="image" />
+                    </a>
+                </div>
+                <div class="text-frame">
+                    <div class="title">
+                        <a href="haber8.html" title="Erken evrede fazla belirti vermeyen pankreas kanseri, görülme sıklığı açısından dünyada 12’inci sırada yer alıyor. " class="site-url">
+                            Erken evrede fazla belirti vermeyen pankreas kanseri, görülme sıklığı açısından dünyada 12’inci sırada yer alıyor.  </a>
+                    </div>
+                </div>
+            </li>
+            <li class="standard-left-thumb-card">
+                <div class="image-frame">
+                    <a href="haber14.html" title="MEB, 66 bin 416 ton atık kağıdı ekonomiye kazandırdı" class="site-url">
+                        <img src="/images/haber14.jpg" alt="MEB, 66 bin 416 ton atık kağıdı ekonomiye kazandırdı" class="image" />
+                    </a>
+                </div>
+                <div class="text-frame">
+                    <div class="title">
+                        <a href="haber14.html" title="Milli Eğitim Bakanlığı (MEB), Sıfır Atık Projesi kapsamında, her yıl ücretsiz dağıtılan ders kitaplarının geri dönüşüme kazandırdı" class="site-url">
+                            Milli Eğitim Bakanlığı (MEB), Sıfır Atık Projesi kapsamında, her yıl ücretsiz dağıtılan ders kitaplarının geri dönüşüme kazandırdı </a>
+                    </div>
+                </div>
+            </li>
+            <li class="standard-left-thumb-card">
+                <div class="image-frame">
+                    <a href="haber12.html" title="YÖK, dünya sıralamalarında ilk 400'de olan üniversitelere doğrudan denklik verecek" class="site-url">
+                        <img src="/images/haber12.jpg" alt="YÖK, dünya sıralamalarında ilk 400'de olan üniversitelere doğrudan denklik verecek" class="image" />
+                    </a>
+                </div>
+                <div class="text-frame">
+                    <div class="title">
+                        <a href="haber12.html" title="Yükseköğretim Kurulu (YÖK), dünya sıralamalarında ilk 400'de bulunan üniversitelerden mezun olanlara doğrudan denklik verileceğini, ilk 1000'de yer alanlardan mezun olanlarda ise YKS'ye girme şartı aranmayacağını açıkladı." class="site-url">
+                            Yükseköğretim Kurulu (YÖK), dünya sıralamalarında ilk 400'de bulunan üniversitelerden mezun olanlara doğrudan denklik verileceğini, ilk 1000'de yer alanlardan mezun olanlarda ise YKS'ye girme şartı aranmayacağını açıkladı.  </a>
+                    </div>
+                </div>
+            </li>
+            <li class="standard-left-thumb-card">
+                <div class="image-frame">
+                    <a href="haber18.html" title="Çavuşoğlu Azerbaycan'da temaslarda bulundu" class="site-url">
+                        <img src="/images/haber18.jpg" alt="Çavuşoğlu Azerbaycan'da temaslarda bulundu" class="image" />
+                    </a>
+                </div>
+                <div class="text-frame">
+                    <div class="title">
+                        <a href="haber18.html" title="NATO Parlamenter Asamblesi (PA) Türk Delegasyonu Başkanı ve AK Parti Antalya Milletvekili Mevlüt Çavuşoğlu, Azerbaycan'da temaslarda bulundu." class="site-url">
+                            NATO Parlamenter Asamblesi (PA) Türk Delegasyonu Başkanı ve AK Parti Antalya Milletvekili Mevlüt Çavuşoğlu, Azerbaycan'da temaslarda bulundu. </a>
+                    </div>
+                </div>
+            </li>                          
+        </ul> 
+</main>
+<footer>
+    <p>Tüm hakları saklıdır. &copy; Busra Haber Sitesi</p>
+</footer>
+</body>
+</html>
